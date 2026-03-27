@@ -358,6 +358,27 @@
                 </div>
             </div>
         </section>
+
+        <!-- Exercise 19 -->
+        <section id="ex-19">
+            <h2 class="text-2xl font-bold mb-4">19. Form Validation UI</h2>
+            <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-200">
+                <!-- Your Code Here -->
+                <label class="block">
+                    <span class="mr-2 font-bold text-lg">Email</span>
+                    <input type="email"
+                           class="peer border border-gray-300 rounded-lg p-1
+                           invalid:border-red-500 invalid:text-red-600
+                           focus:border-sky-500 focus:outline-none
+                           focus:invalid-ring-2 focus:invalid:ring-red-500" />
+                    <p class="invisible text-red-500 text-sm p-2
+                                peer-focus:peer-invalid:visible ">
+                        Please provide a valid Email.
+                    </p>
+                </label>
+            </div>
+        </section>
+
     </div>
 
     </body>
